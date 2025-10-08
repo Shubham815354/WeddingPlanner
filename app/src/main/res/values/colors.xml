@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wedding Planner App Color Palette -->
+
+    <!-- Primary Theme Colors -->
+    <color name="PrimaryBackground">#FFF7F5</color>     <!-- Soft blush white -->
+    <color name="PrimaryAccent">#E4A192</color>         <!-- Rose pink -->
+    <color name="HighlightGold">#D7B075</color>         <!-- Elegant gold -->
+
+    <!-- Text Colors -->
+    <color name="TextDark">#4A2E2A</color>              <!-- Deep chocolate brown -->
+    <color name="SecondaryText">#9E8B82</color>         <!-- Muted taupe -->
+
+    <!-- Button Colors -->
+    <color name="ButtonBackground">#D98170</color>      <!-- Coral rose -->
+    <color name="ButtonText">#FFFFFF</color>            <!-- White -->
+
+    <!-- Additional UI Shades -->
+    <color name="CardBackground">#FFECE8</color>        <!-- Light blush -->
+    <color name="DividerColor">#F1E2DE</color>          <!-- Very light rose beige -->
+    <color name="ProgressBackground">#FFE6E0</color>    <!-- Light coral tint -->
+    <color name="ShadowColor">#1A000000</color>         <!-- Transparent black for soft shadows -->
+
+    <!-- Nav Bar Colors -->
+    <color name="NavActive">#D98170</color>             <!-- Coral rose (Active icon/text) -->
+    <color name="NavInactive">#9E8B82</color>           <!-- Muted taupe (Inactive) -->
+    <color name="NavBackground">#FFFFFF</color>         <!-- White bar background -->
+
+    <!-- Status and Feedback Colors -->
+    <color name="SuccessGreen">#6AB187</color>
+    <color name="ErrorRed">#E57373</color>
+    <color name="InfoBlue">#64B5F6</color>
+    <color name="D98170">#D98170</color>
+    <color name="ui">#9E8B82</color>
+    <color name="white">#FFFFFF</color>
+
+
+</resources>

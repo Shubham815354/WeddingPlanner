@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/checkListFragment"
+        android:icon="@drawable/ic_checklist"
+        android:title="Checklist" />
+
+    <item
+        android:id="@+id/venuesFragment"
+        android:icon="@drawable/ic_venue"
+        android:title="Venues" />
+
+
+    <item
+        android:id="@+id/guestFragment"
+        android:icon="@drawable/ic_guest"
+        android:title="Guests" />
+</menu>

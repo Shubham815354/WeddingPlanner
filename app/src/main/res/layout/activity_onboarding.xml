@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/PrimaryBackground"
+        android:fitsSystemWindows="true">
+
+        <!-- ViewPager2 for onboarding slides -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Dots indicator using TabLayout -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            app:tabIndicatorColor="@color/HighlightGold"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorGravity="bottom"
+            app:tabIndicatorHeight="2dp"
+            app:tabSelectedTextColor="@color/TextDark"
+            app:tabTextColor="@color/SecondaryText"
+            app:tabRippleColor="@android:color/transparent"
+            app:tabBackground="@android:color/transparent" />
+
+        <!-- Next Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="32dp"
+            android:text="Next"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.05"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:paddingVertical="10dp"
+            android:background="@drawable/onboardbutt_bd"
+            app:cornerRadius="24dp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</layout>
